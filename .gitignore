@@ -1,0 +1,4 @@
+*.iml
+/target
+/src/main/resources/xslt
+dependency-reduced-pom.xml
