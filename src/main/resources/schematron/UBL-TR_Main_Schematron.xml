@@ -78,6 +78,7 @@
 	</sch:pattern>	
 	
 	<!--General Rules-->
+  <sch:pattern id="general">
 	<sch:rule context="//cbc:IdentificationCode">
 			<sch:extends rule="CountryCodeCheck"/>
 	</sch:rule>
@@ -108,6 +109,7 @@
 	<sch:rule context="//@mimeCode">
 			<sch:extends rule="MimeCodeCheck"/>
 	</sch:rule>
+  </sch:pattern>
 	<!-- Package -->
 	<sch:pattern id="package">
 		<sch:rule context="ef:Package">
